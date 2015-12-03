@@ -1,0 +1,38 @@
+* Diversidade e a área de tecnologia
+** Quem é o desenvolvedor de software padrão?
+*** Homem
+*** Branco
+*** Entre 20 e 35 anos
+*** Não-casado
+** Do que gosta o desenvolvedor de software padrão?
+*** Filmes, livros e séries de fantasia, heróis e ficção científica
+*** Jogos eletrônicos
+*** Puzzles
+*** Matemática
+** Quanto da população de encaixa nessa descrição?
+*** Eu nunca me senti descrito por essas características. Não tenho muito ardor por games (maneiro normal, só, e admiração técnica), não gosto de puzzles, não curto esses filmes (com raríssimas exceções) e tenho uma relação de admiração com a Matemática, mas não me considero uma pessoa definida pela relação com ela. Pelos meus gostos e as pessoas que conhecia, achava que não era pra mim.
+*** Quantos desenvolvedores se encaixam PLENAMENTE nessa descrição?
+*** Com quantas mulheres atuando como desenvolvedoras vocês já trabalharam?
+*** Com quantos negros atuando como desenvolvedores vocês já trabalharam?
+*** Com quantas mulheres negras atuando como desenvolvedoras vocês já trabalharam?
+** A monocultura no desenvolvimento de software
+*** "Queremos alguém que se encaixe na equipe/que tenha o espírito da equipe/que compre a cultura da equipe"
+** As mulheres no desenvolvimento de software
+*** A visão da mulher padrão
+**** Soft/people skills
+**** Mais emocional que racional (mesmo que isso fosse verdade absoluta, carrega um juízo de valor, em que a emoção é inferior à razão)
+**** Mais afeita a humanas que exatas
+**** Detalhistas
+*** Fato: meninas têm desempenho melhor que os meninos na escola em absolutamente todas as matérias até por volta da oitava série[fn:1]. O que acontece nesse momento da vida delas pra que haja uma disparidade?
+*** Os espaços para mulheres acabam sendo aqueles que se beneficiam dessas qualidades supostamente femininas: análise e levantamento de requisitos, QA, suporte
+*** Outro fato: mulheres ganham, no geral, 75-80% do salário de um homem executando o mesmo trabalho. Se for negra, pode ganhar de 50-60%.
+** Criatividade e diversidade
+*** Vivências diferentes
+** Preparando uma sociedade diversa
+*** Desafios
+**** Cultura familiar
+**** Sistema Educacional
+**** Capitalismo
+
+    
+[fn:1] “Gender Differences in Scholastic Achievement: A Meta-Analysis,” Daniel Voyer, PhD, and Susan D. Voyer, MASc, University of New Brunswick, Psychological Bulletin, online April 28, 2014.

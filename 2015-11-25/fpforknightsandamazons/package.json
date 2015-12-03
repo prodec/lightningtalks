@@ -1,0 +1,19 @@
+{
+  "name": "fpforknightsandamazons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-babel": "^6.1.0",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "ramda": "^0.18.0"
+  }
+}
