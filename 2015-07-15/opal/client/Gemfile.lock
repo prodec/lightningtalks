@@ -1,0 +1,41 @@
+GIT
+  remote: git://github.com/opal/opal-browser.git
+  revision: 7b9a59fa6436caedf1c4433386a76fd879d095e4
+  specs:
+    opal-browser (0.2.0.beta1)
+      opal
+      paggio
+
+GIT
+  remote: git://github.com/opal/opal-jquery.git
+  revision: dbfbe213ce49dadb19dcff449582783ffcfc3ede
+  specs:
+    opal-jquery (0.3.0)
+      opal (>= 0.7.0, < 0.9.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    hike (1.2.3)
+    opal (0.8.0.rc3)
+      hike (~> 1.2)
+      sourcemap (~> 0.1.0)
+      sprockets (~> 3.1)
+      tilt (>= 1.4)
+    paggio (0.2.4)
+    rack (1.6.4)
+    sourcemap (0.1.1)
+    sprockets (3.2.0)
+      rack (~> 1.0)
+    tilt (2.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  opal (= 0.8.0.rc3)
+  opal-browser!
+  opal-jquery!
+
+BUNDLED WITH
+   1.10.5
