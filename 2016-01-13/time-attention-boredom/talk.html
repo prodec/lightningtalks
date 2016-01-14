@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>talk</title>
+<!-- 2016-01-13 Qua 16:55 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Vitor Capela" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">talk</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Tempo, atenção e tédio</a>
+<ul>
+<li><a href="#sec-1-1">1.1. Introdução</a>
+<ul>
+<li><a href="#sec-1-1-1">1.1.1. Se você tirar comparar recortes da vida em vários momentos, a conclusão inevitável é de que viver é uma experiência fundamentalmente entediante</a></li>
+<li><a href="#sec-1-1-2">1.1.2. Quando somos mais novos, temos perfeita noção disso: cada minuto vale 10, e os dias e anos se arrastam. Nós vamos até nossos pais e, com voz arrastada, reclamamos: "Que tédio"!</a></li>
+<li><a href="#sec-1-1-3">1.1.3. A sociedade lida com isto de maneira combativa. "Cabeça vazia, oficina do diabo"; "só quem é entediante fica entediado". Estar ocupado é ser útil.</a></li>
+<li><a href="#sec-1-1-4">1.1.4. Para alguns, o tédio é fonte real de problemas: violência, gravidez na adolescência, crianças piromaníacas. Para outros, essas coisas advém de outras questões do desenvolvimento cognitivo</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-2">1.2. Atenção</a>
+<ul>
+<li><a href="#sec-1-2-1">1.2.1. Nosso cérebro não quer placidez. Se estamos desocupados, ele imediatamente começa a maquinar uma série de coisas. É como uma máquina da Amazon: tem capacidade livre, vamos alugar e ocupar com processamento útil</a></li>
+<li><a href="#sec-1-2-2">1.2.2. Sempre sofremos disso. A grande transformação na nossa <b>atitude</b> em relação a isso começa com a luz elétrica. Com ela, os dias passaram a ser mais longos, as opções mais vastas, e as chances de escapar ao turbilhão interno maiores</a></li>
+<li><a href="#sec-1-2-3">1.2.3. A evolução dessas vantagens recentes nos trouxe ao estado atual. Passamos de tardes chatas na casa de nossa avó nas férias de verão para um estado constante de ocupação mental: notificações de redes sociais e comunicadores instantâneos, checagens constantes de caixas de email. Não há espaço para o tédio. Não há tolerância para o vazio existencial que nos acomete sempre que estamos apenas com nossos pensamentos</a></li>
+<li><a href="#sec-1-2-4">1.2.4. Um outro fator que contribui para nossa sensação costante de ocupação são as mudanças de postura em relação ao trabalho: saímos dos extremos de 18h diárias de trabalho da revolução industrial para as conquistas que reduziram a jornada às 40h que conhecemos hoje. Com a transição da economia de produção para a economia intelectual e a ubiquidade do acesso que temos uns aos outros, essa jornada de trabalho tem estado cada vez maior</a></li>
+<li><a href="#sec-1-2-5">1.2.5. A pergunta que sempre devemos fazer quando o pêndulo vai de um extremo a outro muito rápido é: isso tudo é realmente bom?</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-3">1.3. Economia de atenção</a>
+<ul>
+<li><a href="#sec-1-3-1">1.3.1. Centenas de negócios surgem todos os anos brigando pelo nosso tempo e atenção. A publicidade na TV é frequentemente apontada como um desses negócios. Mas há mais: o que são Twitter, Instagram, Facebook, até mesmo Waze? São meios pelos quais, fazer com que doemos de bom grado nossos instantes, oferecendo em troca dopamina e paliativos para os mais arraigado terrores do nosso lado gregário &#x2013; isto é, estar de fora do que está acontecendo com as pessoas de quem gostamos, de perder nossa relevância perante estas, etc.</a></li>
+<li><a href="#sec-1-3-2">1.3.2. Fragmentamos nossos dias em dezenas de microssatisfações que são tão duradouras quanto a saciedade de ter comido McDonald's. Como resultado, é um impulso natural querermos transformar essas dezenas em centenas, até que de algum modo atinjamos a plenitude</a></li>
+<li><a href="#sec-1-3-3">1.3.3. Há um nome para isso: "a economia da atenção". A atenção e tempo estão intimamente ligados, e são bens cujo valor não se mensura. Ao contrário de dinheiro, não há como ter mais de um ou de outro. A ignorância deste fato faz com que vivenciemos o pico de nossa vida produtiva como um preparativo para o momento em que aproveitaremos todos os benefícios da improdutividade. Quando o momento chega, estamos na merda física e mentalmente</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-4">1.4. O tédio é um privilégio</a>
+<ul>
+<li><a href="#sec-1-4-1">1.4.1. Quando pensamos em quem está entediado normalmente, há quatro grupos principais: crianças, adolescentes, velhos e desempregados. Desta maneira, o tédio ganha a pecha de algo indesejável, algo associado apenas à imaturidade e à penúria</a></li>
+<li><a href="#sec-1-4-2">1.4.2. Eu entendo o tédio de maneira mais virtuosa: ele é um privilégio. O que é que tédio representa (numa vida saudável nos aspectos primordiais) se não uma evidência de que a única obrigação naquele momento é estar consigo mesmo, absorto nos próprios pensamentos?</a></li>
+<li><a href="#sec-1-4-3">1.4.3. O termo em alemão para tédio é "langeweile". "Lang" - longo; "weile" - período. Quando se está entediado o tempo passa devagar como passava na infância. Este é o momento para se buscar paz com nossas próprias mentes. Para tentar entrar em contato com ideias mais complicadas, tentar sentir a textura da realidade, explorar novas ideias</a></li>
+<li><a href="#sec-1-4-4">1.4.4. Se você está entediado, isso significa que sua mente está livre. É a chance que você tem de ser fiel às suas vontades e seus valores, de pensar no que você está pensando &#x2013; chance esta que prontamente temos substituído por telas, por um ideal de diversão. Agarre-a. Obrigado.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Tempo, atenção e tédio</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Introdução</h3>
+<div class="outline-text-3" id="text-1-1">
+</div><div id="outline-container-sec-1-1-1" class="outline-4">
+<h4 id="sec-1-1-1"><span class="section-number-4">1.1.1</span> Se você tirar comparar recortes da vida em vários momentos, a conclusão inevitável é de que viver é uma experiência fundamentalmente entediante</h4>
+<div class="outline-text-4" id="text-1-1-1">
+</div><ol class="org-ol"><li><a id="sec-1-1-1-1" name="sec-1-1-1-1"></a>Esperar em filas de banco<br  /></li>
+<li><a id="sec-1-1-1-2" name="sec-1-1-1-2"></a>Aguardar resultados de exames<br  /></li>
+<li><a id="sec-1-1-1-3" name="sec-1-1-1-3"></a>Assistir a uma aula morosa<br  /></li>
+<li><a id="sec-1-1-1-4" name="sec-1-1-1-4"></a>Andar até um ponto de ônibus<br  /></li>
+<li><a id="sec-1-1-1-5" name="sec-1-1-1-5"></a>etc<br  /></li></ol>
+</div>
+<div id="outline-container-sec-1-1-2" class="outline-4">
+<h4 id="sec-1-1-2"><span class="section-number-4">1.1.2</span> Quando somos mais novos, temos perfeita noção disso: cada minuto vale 10, e os dias e anos se arrastam. Nós vamos até nossos pais e, com voz arrastada, reclamamos: "Que tédio"!</h4>
+</div>
+<div id="outline-container-sec-1-1-3" class="outline-4">
+<h4 id="sec-1-1-3"><span class="section-number-4">1.1.3</span> A sociedade lida com isto de maneira combativa. "Cabeça vazia, oficina do diabo"; "só quem é entediante fica entediado". Estar ocupado é ser útil.</h4>
+</div>
+<div id="outline-container-sec-1-1-4" class="outline-4">
+<h4 id="sec-1-1-4"><span class="section-number-4">1.1.4</span> Para alguns, o tédio é fonte real de problemas: violência, gravidez na adolescência, crianças piromaníacas. Para outros, essas coisas advém de outras questões do desenvolvimento cognitivo</h4>
+</div>
+</div>
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Atenção</h3>
+<div class="outline-text-3" id="text-1-2">
+</div><div id="outline-container-sec-1-2-1" class="outline-4">
+<h4 id="sec-1-2-1"><span class="section-number-4">1.2.1</span> Nosso cérebro não quer placidez. Se estamos desocupados, ele imediatamente começa a maquinar uma série de coisas. É como uma máquina da Amazon: tem capacidade livre, vamos alugar e ocupar com processamento útil</h4>
+<div class="outline-text-4" id="text-1-2-1">
+</div><ol class="org-ol"><li><a id="sec-1-2-1-1" name="sec-1-2-1-1"></a>Os budistas têm um nome para isso: mente de macaco. Esse estado caracteriza a inquietude, os caprichos, a confusão e impulsividade aos quais nossas mentes se lançam sempre que não estamos num momento de função executiva<br  /></li></ol>
+</div>
+<div id="outline-container-sec-1-2-2" class="outline-4">
+<h4 id="sec-1-2-2"><span class="section-number-4">1.2.2</span> Sempre sofremos disso. A grande transformação na nossa <b>atitude</b> em relação a isso começa com a luz elétrica. Com ela, os dias passaram a ser mais longos, as opções mais vastas, e as chances de escapar ao turbilhão interno maiores</h4>
+</div>
+<div id="outline-container-sec-1-2-3" class="outline-4">
+<h4 id="sec-1-2-3"><span class="section-number-4">1.2.3</span> A evolução dessas vantagens recentes nos trouxe ao estado atual. Passamos de tardes chatas na casa de nossa avó nas férias de verão para um estado constante de ocupação mental: notificações de redes sociais e comunicadores instantâneos, checagens constantes de caixas de email. Não há espaço para o tédio. Não há tolerância para o vazio existencial que nos acomete sempre que estamos apenas com nossos pensamentos</h4>
+</div>
+<div id="outline-container-sec-1-2-4" class="outline-4">
+<h4 id="sec-1-2-4"><span class="section-number-4">1.2.4</span> Um outro fator que contribui para nossa sensação costante de ocupação são as mudanças de postura em relação ao trabalho: saímos dos extremos de 18h diárias de trabalho da revolução industrial para as conquistas que reduziram a jornada às 40h que conhecemos hoje. Com a transição da economia de produção para a economia intelectual e a ubiquidade do acesso que temos uns aos outros, essa jornada de trabalho tem estado cada vez maior</h4>
+</div>
+<div id="outline-container-sec-1-2-5" class="outline-4">
+<h4 id="sec-1-2-5"><span class="section-number-4">1.2.5</span> A pergunta que sempre devemos fazer quando o pêndulo vai de um extremo a outro muito rápido é: isso tudo é realmente bom?</h4>
+</div>
+</div>
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Economia de atenção</h3>
+<div class="outline-text-3" id="text-1-3">
+</div><div id="outline-container-sec-1-3-1" class="outline-4">
+<h4 id="sec-1-3-1"><span class="section-number-4">1.3.1</span> Centenas de negócios surgem todos os anos brigando pelo nosso tempo e atenção. A publicidade na TV é frequentemente apontada como um desses negócios. Mas há mais: o que são Twitter, Instagram, Facebook, até mesmo Waze? São meios pelos quais, fazer com que doemos de bom grado nossos instantes, oferecendo em troca dopamina e paliativos para os mais arraigado terrores do nosso lado gregário &#x2013; isto é, estar de fora do que está acontecendo com as pessoas de quem gostamos, de perder nossa relevância perante estas, etc.</h4>
+</div>
+<div id="outline-container-sec-1-3-2" class="outline-4">
+<h4 id="sec-1-3-2"><span class="section-number-4">1.3.2</span> Fragmentamos nossos dias em dezenas de microssatisfações que são tão duradouras quanto a saciedade de ter comido McDonald's. Como resultado, é um impulso natural querermos transformar essas dezenas em centenas, até que de algum modo atinjamos a plenitude</h4>
+</div>
+<div id="outline-container-sec-1-3-3" class="outline-4">
+<h4 id="sec-1-3-3"><span class="section-number-4">1.3.3</span> Há um nome para isso: "a economia da atenção". A atenção e tempo estão intimamente ligados, e são bens cujo valor não se mensura. Ao contrário de dinheiro, não há como ter mais de um ou de outro. A ignorância deste fato faz com que vivenciemos o pico de nossa vida produtiva como um preparativo para o momento em que aproveitaremos todos os benefícios da improdutividade. Quando o momento chega, estamos na merda física e mentalmente</h4>
+</div>
+</div>
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4"><span class="section-number-3">1.4</span> O tédio é um privilégio</h3>
+<div class="outline-text-3" id="text-1-4">
+</div><div id="outline-container-sec-1-4-1" class="outline-4">
+<h4 id="sec-1-4-1"><span class="section-number-4">1.4.1</span> Quando pensamos em quem está entediado normalmente, há quatro grupos principais: crianças, adolescentes, velhos e desempregados. Desta maneira, o tédio ganha a pecha de algo indesejável, algo associado apenas à imaturidade e à penúria</h4>
+</div>
+<div id="outline-container-sec-1-4-2" class="outline-4">
+<h4 id="sec-1-4-2"><span class="section-number-4">1.4.2</span> Eu entendo o tédio de maneira mais virtuosa: ele é um privilégio. O que é que tédio representa (numa vida saudável nos aspectos primordiais) se não uma evidência de que a única obrigação naquele momento é estar consigo mesmo, absorto nos próprios pensamentos?</h4>
+</div>
+<div id="outline-container-sec-1-4-3" class="outline-4">
+<h4 id="sec-1-4-3"><span class="section-number-4">1.4.3</span> O termo em alemão para tédio é "langeweile". "Lang" - longo; "weile" - período. Quando se está entediado o tempo passa devagar como passava na infância. Este é o momento para se buscar paz com nossas próprias mentes. Para tentar entrar em contato com ideias mais complicadas, tentar sentir a textura da realidade, explorar novas ideias</h4>
+</div>
+<div id="outline-container-sec-1-4-4" class="outline-4">
+<h4 id="sec-1-4-4"><span class="section-number-4">1.4.4</span> Se você está entediado, isso significa que sua mente está livre. É a chance que você tem de ser fiel às suas vontades e seus valores, de pensar no que você está pensando &#x2013; chance esta que prontamente temos substituído por telas, por um ideal de diversão. Agarre-a. Obrigado.</h4>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Vitor Capela</p>
+<p class="date">Created: 2016-01-13 Qua 16:55</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
