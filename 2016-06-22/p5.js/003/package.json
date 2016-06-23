@@ -1,0 +1,19 @@
+{
+  "name": "draw-me-to-you",
+  "version": "1.0.0",
+  "description": "draws something to me",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "p5",
+    "socket"
+  ],
+  "author": "thiagocifani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socketio": "^1.0.0"
+  }
+}
